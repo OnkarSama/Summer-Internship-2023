@@ -14,6 +14,8 @@ public class TestProject extends LinearOpMode {
 
         robot.init(hardwareMap);
 
+        waitForStart();
+
         while(opModeIsActive()){
             
         }
