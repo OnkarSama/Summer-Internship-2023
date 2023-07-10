@@ -11,11 +11,10 @@ public class BasicTankDrive extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {
 
-        // Put hardwareMap below.
+
+        robot.init(hardwareMap);   // Put hardwareMap below.
 
         // Put initialization blocks here.
-
-        robot.init(hardwareMap);
 
         waitForStart();
 
